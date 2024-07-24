@@ -3,69 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="icon" href="assets/faviconpng.png" />
+    <title>Ripple</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <style>
-      nav {
-        text-transform: uppercase;
-        font-weight: bold;
-      }
-      .hero-section {
-        padding: 2rem 0;
-        border-bottom: 1px dotted #cacaca;
-        margin-bottom: 1rem;
-      }
-      .hero {
-        width: 100%;
-        max-width: 1053px;
-        height: 367px;
-        background-image: url("assets/slideimg.png");
-        background-size: cover;
-        background-position: center;
-        margin: 0 auto;
-      }
-      .custom-container {
-        max-width: 1053px;
-      }
-      .border-bt-dotted {
-        border-bottom: 1px dashed #cacaca;
-      }
-      .border-tp-dotted {
-        border-top: 1px dashed #cacaca;
-      }
-      .service {
-        display: flex;
-        gap: 0.5rem;
-      }
-
-      h3 {
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-        font-size: 1.5rem;
-        font-weight: bold;
-      }
-      h5 {
-        font-size: 1rem;
-      }
-      section {
-        border-bottom: 1px dotted #cacaca;
-        padding: 1.5rem 0;
-      }
-      .welcome {
-        display: flex;
-        gap: 1rem;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header
-      class="continer custom-container m-auto border-bottom border-info border-3"
-    >
-      <nav class="navbar navbar-expand-lg">
+    <header class="continer custom-container m-auto header">
+      <nav class="navbar navbar-expand-lg custom-navbar">
         <div class="container-fluid custom-container">
           <a class="navbar-brand" href="#"
             ><img src="assets/logopng.png" alt="ripple-logo"
@@ -104,106 +54,95 @@
       </nav>
     </header>
     <main class="container-fluid custom-container">
+      <!-- Hero Section -->
       <section class="hero-section">
         <div class="hero"></div>
       </section>
 
       <section class="service">
         <!-- Web Design -->
-        <div class="card-service">
-          <h3 class="text-uppercase">Web Design</h3>
-          <h5 class="text-uppercase text-warning border-bt-dotted pb-3">
-            Lorem ipsum dolor sit amet.
-          </h5>
-          <div class="border-tp-dotted pt-3">
+        <div>
+          <h1>Web Design</h1>
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <div class="dashed"></div>
+          <div class="mt-3">
             <img
               class="float-start me-3"
               src="assets/cont1.png"
               alt="document img"
             />
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              dignissimos ullam est rem consectetur officia magnam? Tempora
-              laborum repellendus quo eaque mollitia tempore temporibus hic
-              aliquid. Veritatis eveniet harum tempore.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Morbi
+              laoreet sollicitudin augue, a imperdiet sapien fermentum quis.
+              Vestibulum sed enim quis quam venenatis venenatis eget quis orci.
             </p>
           </div>
-
           <button class="shadow-sm border rounded bg-white px-4 py-2">
             Read More
           </button>
         </div>
         <!-- End Web Design -->
         <!-- Web Development -->
-        <div class="card-service">
-          <h3 class="text-uppercase">Web Development</h3>
-          <h5 class="text-uppercase text-warning border-bt-dotted pb-3">
-            Lorem ipsum dolor sit amet.
-          </h5>
-          <div class="border-tp-dotted pt-3">
+        <div>
+          <h1>Web Development</h1>
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <div class="dashed"></div>
+          <div class="mt-3">
             <img
               class="float-start me-3"
               src="assets/cont2.png"
               alt="document img"
             />
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              dignissimos ullam est rem consectetur officia magnam? Tempora
-              laborum repellendus quo eaque mollitia tempore temporibus hic
-              aliquid. Veritatis eveniet harum tempore.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Morbi
+              laoreet sollicitudin augue, a imperdiet sapien fermentum quis.
+              Vestibulum sed enim quis quam venenatis venenatis eget quis orci.
             </p>
           </div>
-
           <button class="shadow-sm border rounded bg-white px-4 py-2">
             Read More
           </button>
         </div>
         <!-- End Web Development -->
         <!-- Print Design -->
-        <div class="card-service">
-          <h3 class="text-uppercase">Print Design</h3>
-          <h5 class="text-uppercase text-warning border-bt-dotted pb-3">
-            Lorem ipsum dolor sit amet.
-          </h5>
-          <div class="border-tp-dotted pt-3">
+        <div>
+          <h1>Print Design</h1>
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <div class="dashed"></div>
+          <div class="mt-3">
             <img
               class="float-start me-3"
               src="assets/cont3.png"
               alt="document img"
             />
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              dignissimos ullam est rem consectetur officia magnam? Tempora
-              laborum repellendus quo eaque mollitia tempore temporibus hic
-              aliquid. Veritatis eveniet harum tempore.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Morbi
+              laoreet sollicitudin augue, a imperdiet sapien fermentum quis.
+              Vestibulum sed enim quis quam venenatis venenatis eget quis orci.
             </p>
           </div>
-
           <button class="shadow-sm border rounded bg-white px-4 py-2">
             Read More
           </button>
         </div>
         <!-- End Print Design -->
         <!-- Digital Media -->
-        <div class="card-service">
-          <h3 class="text-uppercase">Digital Media</h3>
-          <h5 class="text-uppercase text-warning border-bt-dotted pb-3">
-            Lorem ipsum dolor sit amet.
-          </h5>
-          <div class="border-tp-dotted pt-3">
+        <div>
+          <h1>Digital Media</h1>
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <div class="dashed"></div>
+          <div class="mt-3">
             <img
               class="float-start me-3"
               src="assets/cont4.png"
               alt="document img"
             />
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              dignissimos ullam est rem consectetur officia magnam? Tempora
-              laborum repellendus quo eaque mollitia tempore temporibus hic
-              aliquid. Veritatis eveniet harum tempore.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Morbi
+              laoreet sollicitudin augue, a imperdiet sapien fermentum quis.
+              Vestibulum sed enim quis quam venenatis venenatis eget quis orci.
             </p>
           </div>
-
           <button class="shadow-sm border rounded bg-white px-4 py-2">
             Read More
           </button>
@@ -213,10 +152,8 @@
       <!--======= Welcome and Stay Update Section =======-->
       <section class="row">
         <div class="col">
-          <h3 class="text-uppercase">Welcome</h3>
-          <h5 class="text-uppercase text-warning pb-3">
-            Why were here and what we do
-          </h5>
+          <h1>Welcome</h1>
+          <h2>Why were here and what we do</h2>
           <p>
             Maecenas leo arcu, tempus et blandit at, consequat laoreet lacus.
             Pellestesque erat ligula, bibendum id vehicula vitae, blandit at
@@ -226,49 +163,56 @@
           </p>
         </div>
         <div class="col">
-          <h3 class="text-uppercase">Stay Updated</h3>
-          <h5 class="text-uppercase text-warning pb-3">
-            Join our mailing list
-          </h5>
+          <h1>Stay Updated</h1>
+          <h2>Join our mailing list</h2>
           <p>
             Maecenas leo arcu, tempus et blandit at, consequat laoreet lacus.
             Pellestesque erat ligula, bibendum id vehicula vitae, blandit at
             odio. Nunc hendrerit nulla vitae ligula commodo
           </p>
-          <form action="#">
+          <form class="form" action="#">
             <input
               type="email"
-              class="form-control"
+              class="form-control email"
               name="email"
               id="email"
               placeholder="you@yourdomain.com..."
             />
+            <img class="email-icon" src="assets/email.png" alt="email" />
           </form>
         </div>
       </section>
       <!--======= End of Welcome and Stay Update Section =======-->
       <!--======= Latest works =======-->
       <section>
-        <h5>View our latest works</h5>
+        <div class="d-flex justify-content-between">
+          <h2>View our latest works</h2>
+          <div class="pagination">
+            <div class="box active"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </div>
+
         <div class="row">
           <div class="col">
-            <img class="shadow" src="assets/cont5.png" alt="work 1" />
-            <h5>Lorem Ipsum dolor sit amet.</h5>
+            <img class="shadow mb-3" src="assets/cont5.png" alt="work 1" />
+            <h2>Lorem Ipsum dolor sit amet.</h2>
             <p>Lorem ipsum sit amet, consectetur adipisicing elit...</p>
           </div>
           <div class="col">
-            <img class="shadow" src="assets/cont6.png" alt="work 2" />
-            <h5>Lorem Ipsum dolor sit amet.</h5>
+            <img class="shadow mb-3" src="assets/cont6.png" alt="work 2" />
+            <h2>Lorem Ipsum dolor sit amet.</h2>
             <p>Lorem ipsum sit amet, consectetur adipisicing elit...</p>
           </div>
           <div class="col">
-            <img class="shadow" src="assets/cont7.png" alt="work 3" />
-            <h5>Lorem Ipsum dolor sit amet.</h5>
+            <img class="shadow mb-3" src="assets/cont7.png" alt="work 3" />
+            <h2>Lorem Ipsum dolor sit amet.</h2>
             <p>Lorem ipsum sit amet, consectetur adipisicing elit...</p>
           </div>
           <div class="col">
-            <img class="shadow" src="assets/cont8.png" alt="work 4" />
-            <h5>Lorem Ipsum dolor sit amet.</h5>
+            <img class="shadow mb-3" src="assets/cont8.png" alt="work 4" />
+            <h2>Lorem Ipsum dolor sit amet.</h2>
             <p>Lorem ipsum sit amet, consectetur adipisicing elit...</p>
           </div>
         </div>
@@ -279,45 +223,53 @@
       <div class="row">
         <div class="col">
           <h3>Partners</h3>
+          <div class="dashed"></div>
           <ul>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
           </ul>
         </div>
 
         <div class="col">
           <h3>Categories</h3>
+          <div class="dashed"></div>
           <ul>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
           </ul>
         </div>
 
         <div class="col">
           <h3>Resources</h3>
+          <div class="dashed"></div>
           <ul>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
           </ul>
         </div>
 
         <div class="col">
           <h3>News & Updates</h3>
+          <div class="dashed"></div>
           <ul>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
+            <li>
+              <a href="#"><span>24/04/11 - </span> Lorem ipsum dolor sit</a>
+            </li>
+            <li>
+              <a href="#"><span>10/02/11 - </span> Lorem ipsum dolor sit</a>
+            </li>
+            <li>
+              <a href="#"><span>14/02/11 - </span> Lorem ipsum dolor sit</a>
+            </li>
           </ul>
         </div>
       </div>
